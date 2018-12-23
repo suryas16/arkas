@@ -122,7 +122,7 @@ curl -X GET \
 ````
 
 ## Contributors
-[Su Su](https://www.linkedin.com/in/arpitkhandelwal1984/)
+[Su Su]
 
 ## License
 This project is licensed under the terms of the MIT license.
