@@ -21,3 +21,4 @@ mergeable:
           title: Fail!!
           summary: >
             The following errors have occured {{#results}}- {{message.fail}} {{/results}}
+            Branch is WIP or work in progress
