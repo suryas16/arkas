@@ -4,7 +4,20 @@ mergeable:
     validate:
       - do: title
         must_exclude:
-          regex: ^\[WIP\]
+          regex: 'wip|work in progress'
       - do: label
         must_exclude:
-          regex: 'wip'
+          regex: 'wip|work in progress'
+    pass:
+      - do: checks
+        status: success
+        payload:
+          title: Success!!
+          summary: '{{#results}}- {{message.pass}} {{/results}}'
+    fail:
+      - do: checks
+        status: failure
+        payload:
+          title: Fail!!
+          summary: >
+            The following errors have occured {{#results}}- {{message.fail}} {{/results}}
