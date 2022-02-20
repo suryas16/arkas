@@ -7,5 +7,5 @@ pass:
   - do: comment
 payload:
   body: >
-  Thanks for creating a pull request! A maintainer will review your changes
+  Testing welcome mssage - Thanks for creating a pull request! A maintainer will review your changes
   ˓→shortly. Please don't be discouraged if it takes a while.
